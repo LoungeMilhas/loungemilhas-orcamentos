@@ -29,34 +29,28 @@ export default function RecifeBugan() {
           <h1 style={{ fontSize: "42px", marginBottom: "10px" }}>
             ✈️ Lounge Milhas
           </h1>
-
-          <p style={{ fontSize: "20px" }}>
-            Proposta Premium de Viagem
-          </p>
+          <p style={{ fontSize: "20px" }}>Proposta Premium de Viagem</p>
         </div>
+
+        <img
+          src="/foto01.webp"
+          alt="Bugan Recife Boa Viagem Hotel"
+          style={{
+            width: "100%",
+            height: "430px",
+            objectFit: "cover",
+            display: "block",
+          }}
+        />
 
         <div style={{ padding: "40px" }}>
           <h2>🏨 Bugan Recife Boa Viagem Hotel</h2>
 
-          <p>
-            📍 Recife - PE
-          </p>
-
-          <p>
-            📅 19/06/2026 a 22/06/2026
-          </p>
-
-          <p>
-            👨‍👩‍👧 03 adultos + 01 bebê
-          </p>
-
-          <p>
-            🛏️ 02 Quartos Standard Queen
-          </p>
-
-          <p>
-            ☕ Café da manhã incluso
-          </p>
+          <p>📍 Recife - PE</p>
+          <p>📅 19/06/2026 a 22/06/2026</p>
+          <p>👨‍👩‍👧 03 adultos + 01 bebê</p>
+          <p>🛏️ 02 Quartos Standard Queen</p>
+          <p>☕ Café da manhã incluso</p>
 
           <hr style={{ margin: "30px 0" }} />
 
@@ -80,24 +74,33 @@ export default function RecifeBugan() {
               borderRadius: "12px",
             }}
           >
-            <strong>
-              Cartão: R$ 6.999,83 em até 4x sem juros
-            </strong>
+            <strong>Cartão: R$ 6.999,83 em até 4x sem juros</strong>
           </div>
 
           <hr style={{ margin: "30px 0" }} />
 
-          <p>
-            ✅ Hospedagem confirmada mediante disponibilidade
-          </p>
+          <p>✅ Hospedagem confirmada mediante disponibilidade</p>
+          <p>✅ Tarifas sujeitas a alteração sem aviso prévio</p>
+          <p>✅ Atendimento personalizado Lounge Milhas</p>
 
-          <p>
-            ✅ Tarifas sujeitas a alteração sem aviso prévio
-          </p>
-
-          <p>
-            ✅ Atendimento personalizado Lounge Milhas
-          </p>
+          <a
+            href="https://wa.me/556198867234"
+            target="_blank"
+            style={{
+              display: "block",
+              marginTop: "35px",
+              background: "#0f2747",
+              color: "#ffffff",
+              textAlign: "center",
+              padding: "18px",
+              borderRadius: "12px",
+              textDecoration: "none",
+              fontWeight: "bold",
+              fontSize: "18px",
+            }}
+          >
+            Solicitar reserva pelo WhatsApp
+          </a>
         </div>
       </div>
     </main>
