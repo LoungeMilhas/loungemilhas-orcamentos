@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Lounge Milhas Orçamentos",
   description: "Orçamentos premium da Lounge Milhas",

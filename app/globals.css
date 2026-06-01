@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens da Lounge Milhas (PLACEHOLDER).
+ * Cores provisorias derivadas do orcamento atual; serao substituidas
+ * pela paleta oficial quando o brand kit for fornecido (ver README).
+ * A identidade definitiva e aplicada via tabela `marca` + bucket `marca` (Fase 1).
+ */
+@theme {
+  --color-marca-900: #0b2545;
+  --color-marca-800: #0f2747;
+  --color-marca-600: #0f3d63;
+  --color-marca-gold: #d4af37;
+  --color-marca-bg: #f3f6fa;
+  --font-sans: Arial, system-ui, sans-serif;
+}
+
+html,
+body {
+  background: var(--color-marca-bg);
+  color: var(--color-marca-900);
+}
